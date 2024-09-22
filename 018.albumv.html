@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum de Versículos Bíblicos</title>
+    <link rel="stylesheet" href="018.albumv.css">
+</head>
+<body>
+    <div class="quiz-header">
+        <h1>Álbum de Versículos Bíblicos</h1>
+        <div id="levelInfo">Nível 1</div>
+        <div id="progressInfo">Progresso: 0/66</div>
+    </div>
+    
+    <div class="container" id="gameContainer">
+        <button id="startAlbumButton" class="styled-button">Abrir Álbum de Versículos</button>
+    </div>
+
+    <div id="questionContainer" style="display: none;">
+        <div id="question" class="question"></div>
+        <ul id="alternatives" class="alternatives"></ul>
+        <button id="submitButton" class="styled-button">Enviar Resposta</button>
+        <div id="result"></div>
+    </div>
+
+    <div id="albumContainer" style="display: none;">
+        <h2>Álbum de Versículos Bíblicos</h2>
+        <div id="album-container"></div>
+    </div>
+
+    <script src="017.albumv.js"></script>
+</body>
+</html>
